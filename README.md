@@ -1,7 +1,7 @@
 # IBKRust
 
-Non-blocking, comprehensive and easy-to-use IBKR API in Rust (Interactive Brokers API in Rust). This
-works by invoking the C++ API using a Foreign Function Interface (FFI).
+*Non-blocking, comprehensive and easy-to-use IBKR API in Rust (Interactive Brokers API in Rust). This
+works by invoking the C++ API using a Foreign Function Interface (FFI).*
 
 ### Executing Trades
 
@@ -124,3 +124,13 @@ let finish_executions_callback: Arc<fn()> = Arc::new(finish_executions);
 stat_ibkr_service().lock().unwrap().get_executions(
     &execution_callback, &finish_executions_callback, &broker_client);
 ```
+
+## Installation
+
+The current repo on GitHub only contains stub functions because I have no idea if anyone will be
+interested in using this Rust crate. I will go to the trouble of creating the Rust crate and
+publishing the rest of this code, and add installation instructions if there is interest from the
+community.
+
+Therefore, to indicate interest in this project please 'star' the repo. If you would be willing to
+sponsor the development of this repo please message me directly.
