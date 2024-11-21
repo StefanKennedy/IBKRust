@@ -1,7 +1,7 @@
 # IBKRust
 
-*Non-blocking, comprehensive and easy-to-use IBKR API in Rust (Interactive Brokers API in Rust). This
-works by invoking the C++ API using a Foreign Function Interface (FFI).*
+**Non-blocking, comprehensive and easy-to-use IBKR API in Rust (Interactive Brokers API in Rust). This
+works by invoking the C++ API using a Foreign Function Interface (FFI).**
 
 ### Executing Trades
 
